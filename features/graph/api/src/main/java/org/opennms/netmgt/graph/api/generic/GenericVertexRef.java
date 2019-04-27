@@ -45,11 +45,6 @@ public class GenericVertexRef implements VertexRef {
         this.id = id;
     }
 
-    /** Copy constructor */
-    public GenericVertexRef(GenericVertexRef genericVertexRef){
-        this(genericVertexRef.namespace, genericVertexRef.id);
-    }
-
     @Override
     public String getNamespace() {
         return this.namespace;
